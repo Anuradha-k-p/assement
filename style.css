@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkgoldenrod;
+}
+
+img{
+    height: 15vh;
+    width: 20vw;
+}
+
+.nav{
+    width: 10vw;
+    height: 5vh;
+    background-color: aquamarine;
+    border-radius: 10%;
+    text-decoration: none;
+   
+    
+    
+}
+.nav:hover{
+    color: chocolate;
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+a:hover{
+    color: chocolate;
+    background-color: darkcyan;
+    cursor: pointer;
+}
+.n1{
+   float: right;
+    left: 50%;
+    top: 15%;
+    margin-top: 3%;
+    background-color: darkgoldenrod;
+    
+}
+
+.main{
+    width: 100vw;
+    height: 50vh;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child{
+    width: 20vw;
+    height: 30vh;
+    background-color: hotpink;
+    font-size: larger;
+    color: azure;
+    text-align: center;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+
+#d1:hover{
+    background-color: indianred;
+    transition: all 2s linear;
+    transform: scale(1.5);
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+   
+
+
+}
+
+#d2:hover{
+
+    background-color: indianred;
+    transition: all 2s linear;
+    transform: scale(0.5);
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+  
+}
+
+#d3:hover{
+    background-color: indianred;
+    transition: all 2s linear;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+#d4:hover{
+    background-color: indianred;
+    transition: all 2s linear;
+    transform: scaleX(2);
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+
+}
+@media  only screen and (max-width:400px) {
+body{
+    background-color: white;
+}
+    
+.main{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 1%;
+
+
+   
+}
+.child{
+width: 50%;
+height: 15vh;
+    
+}
+
+
+.nav{
+    display: none;
+}
+img{
+    width: 40vw;
+    margin-left: 10%;
+}
+
+}
+
